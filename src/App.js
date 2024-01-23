@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="gray-background">
       <img src={logo} lat="logo" />
-      <h2>Let's go TL system!!ok11!!</h2>
+      <h2>Let's go TL system!!ok11111!!</h2>
     </div>
   );
 }
