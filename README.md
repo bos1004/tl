@@ -1,5 +1,7 @@
 # Getting Started with Create React App
-
+## TL System
+ 본 프로젝트는 TL 한울타리 길드에서 관리하기 위한 프로그램을 제작하기 위함입니다.
+ 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
