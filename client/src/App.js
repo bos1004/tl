@@ -10,7 +10,7 @@ import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 import { withStyles } from '@material-ui/core/styles';
 import { render } from '@testing-library/react';
-import { response } from 'express';
+
 
 const styles = theme => ({
   root:{
@@ -74,7 +74,7 @@ class App extends Component {
               gender={c.gender}
               job={c.job}
             />
-          ); } ) : " "
+          ); } ) : ""
         }    
 
           

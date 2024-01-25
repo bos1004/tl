@@ -1,4 +1,4 @@
-const express= require('express');
+const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const port = process.env.PORT || 5000;
@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.get('/api/customers',(req,res) => {
+app.get('/api/customers',(req, res) => {
     res.send([
         
             {
@@ -32,9 +32,7 @@ app.get('/api/customers',(req,res) => {
               'birthday' : '660205',
               'gender' : '남자',
               'job' : '대통령',
-            }
-          
-          
+            }          
     ]);
 });
 
